@@ -42,7 +42,7 @@ class LoginUi(object):
         self.textBrowser = QtWidgets.QTextBrowser(login)
         self.textBrowser.setGeometry(QtCore.QRect(-1, 0, 412, 301))
         self.textBrowser.setObjectName("textBrowser")
-        self.textBrowser.setStyleSheet("background-image: url(log.jpg);")
+        self.textBrowser.setStyleSheet("background-image: url(assets/log.jpg);")
         self.textBrowser.raise_()
 
         self.lineEdit.raise_()

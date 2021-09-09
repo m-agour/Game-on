@@ -1,13 +1,17 @@
-import json
 import datetime
+import json
+import os
+import sys
+
 
 class System:
     def __init__(self):
         self.evaluated = False
         self.user = "Demon Phrixus"
         self.password = "dma"
-        self.database_file = "Database.json"
-        self.history_file = "history.json"
+        path = os.path.dirname(sys.modules['__main__'].__file__)
+        self.database_file = os.path.join(path, "history.json")
+        self.history_file = os.path.join(path, "history.json")
         self.min_points = 10
         self.today_points = 0
         self.in_progress_tasks = []
@@ -118,4 +122,3 @@ class System:
 
     def get_completed_credits(self):
         return sum([self.tasks[i] for i in self.completed_tasks])
-

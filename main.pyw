@@ -1,6 +1,6 @@
 import playsound
-from login import *
-from system import *
+from libs.login import *
+from libs.system import *
 from PyQt6 import QtCore, QtGui, QtWidgets
 import re
 
@@ -14,7 +14,7 @@ class MainUi(object):
         self.login_widget = Login
         widget.setWindowTitle("Focus")
         widget.setObjectName("Focus")
-        widget.setWindowIcon(QtGui.QIcon("focus.png"))
+        widget.setWindowIcon(QtGui.QIcon("assets/focus.png"))
         widget.setFixedSize(1109, 778)
         widget.setGeometry(200, 30, 1109, 778)
         widget.setStyleSheet('QMainWindow{background-color: darkgray;border: 1px solid blue;}')
@@ -40,7 +40,7 @@ class MainUi(object):
 
         # set qmovie as label
 
-        self.movie = QtGui.QMovie("view.gif")
+        self.movie = QtGui.QMovie("assets/view.gif")
         self.movie.setScaledSize(QtCore.QSize(1109, 778))
         self.label.setStyleSheet("""QLabel{opacity:0.1}""")
         self.label.setMovie(self.movie)
@@ -338,7 +338,7 @@ class MainUi(object):
 
     def register_task(self):
         if self.tasks_combo.currentText()[0] == "(":
-            playsound.playsound("click.wav")
+            playsound.playsound("assets/click.wav")
             task = re.sub(r'\([^()]*\)  ', '', self.tasks_combo.currentText())
             self.system.register_task(task)
 
