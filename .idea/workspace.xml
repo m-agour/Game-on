@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ea7c27a-e348-4f4d-83a4-a57db7b15e87" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Database.json" beforeDir="false" afterPath="$PROJECT_DIR$/Database.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/click.wav" beforeDir="false" afterPath="$PROJECT_DIR$/assets/click.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/focus.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/focus.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/gui.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/history.json" beforeDir="false" afterPath="$PROJECT_DIR$/history.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/log.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/login.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.pyw" beforeDir="false" afterPath="$PROJECT_DIR$/main.pyw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system.py" beforeDir="false" afterPath="$PROJECT_DIR$/libs/system.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/view.gif" afterDir="false" />
-    </list>
+    <list default="true" id="6ea7c27a-e348-4f4d-83a4-a57db7b15e87" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -217,6 +205,7 @@
       <workItem from="1631174806302" duration="143000" />
       <workItem from="1631174976406" duration="1867000" />
       <workItem from="1631177373027" duration="7000" />
+      <workItem from="1631177538969" duration="4000" />
     </task>
     <servers />
   </component>
